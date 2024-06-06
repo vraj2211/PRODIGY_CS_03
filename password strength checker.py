@@ -46,3 +46,6 @@ if feedback:
     print("Feedback:")
     for comment in feedback:
         print(f"- {comment}")
+        # Wait for the user to press Enter before closing
+input("Press Enter to exit...")
+
